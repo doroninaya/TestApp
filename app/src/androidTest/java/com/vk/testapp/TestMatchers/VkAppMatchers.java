@@ -45,10 +45,6 @@ public class VkAppMatchers {
         return findUiObjectById(VK_PACKAGE_NAME, "photo");
     }
 
-    public static UiObject2 vkTitle() {
-        return findUiObjectById(VK_PACKAGE_NAME, "title");
-    }
-
     public static UiObject2 vkIcon() {
         return findUiObjectById(VK_PACKAGE_NAME, "icon");
     }
