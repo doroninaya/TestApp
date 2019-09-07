@@ -11,7 +11,7 @@ import static android.os.Environment.getExternalStorageDirectory;
 public class MemoryLogsUtil {
     public static final String LOG_TAG = "VK_TEST";
 
-    public static final long MAX_PEAK_PSS_ALLOWED = 200000; //Around max memory for Vk app
+    public static final long MAX_PEAK_PSS_ALLOWED = 250000; //Around max memory for Vk app
 
     private static final String FOLDER_NAME_FOR_MEMORY_LOGS = "app_memory_logs";
 
